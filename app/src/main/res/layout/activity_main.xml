@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/main_1"
+    >
+
+    <Button
+        android:id="@+id/report_button1"
+        android:layout_width="307dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="52dp"
+        android:background="#00000000"
+        android:text="Button"
+        android:textColor="#00000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="574dp" />
+
+    <Button
+        android:id="@+id/ad_button1"
+        android:layout_width="416dp"
+        android:layout_height="438dp"
+        android:background="#00000000"
+        android:text="Button"
+        android:textColor="#00000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <Button
+        android:id="@+id/top6_button1"
+        android:layout_width="307dp"
+        android:layout_height="50dp"
+        android:background="#00000000"
+        android:text="Button"
+        android:textColor="#00000000"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="650dp" />
+
+    <Button
+        android:id="@+id/home_button1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#00000000"
+        android:text="Button"
+        android:textColor="#00000000"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="758dp" />
+
+    <Button
+        android:id="@+id/recipe_button1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#00000000"
+        android:text="Button"
+        android:textColor="#00000000"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="758dp" />
+
+    <Button
+        android:id="@+id/category_button1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#00000000"
+        android:text="Button"
+        android:textColor="#00000000"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="758dp" />
+
+    <Button
+        android:id="@+id/search_button1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#00000000"
+        android:text="Button"
+        android:textColor="#00000000"
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="758dp" />
+
+    <Button
+        android:id="@+id/cart_button1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#00000000"
+        android:text="Button"
+        android:textColor="#00000000"
+        tools:layout_editor_absoluteX="329dp"
+        tools:layout_editor_absoluteY="758dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
